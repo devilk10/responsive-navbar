@@ -1,0 +1,46 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    font-family: raleway;
+    color: #ffffff;
+    background-color: tomato;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li {
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: tomato;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav ul li ul li {
+    display: none;
+    text-align: inherit;
+}
+
+nav > ul > li:hover ul li {
+    display: block;
+}
+
+nav > ul > li{
+    flex-basis: 20%;
+}
+
+nav ul li:hover {
+    background-color: thistle;
+}
